@@ -1,0 +1,20 @@
+html, body {
+  margin: 0;
+  padding: 10px;
+  background-color:#555555;
+}
+canvas {
+  display: block;
+}
+
+
+h1 { color: #ffffff; font-family: 'Raleway',sans-serif; font-size: 62px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-align: center; text-transform: uppercase; }
+
+.inf{
+	color: #ffffff; font-family: 'Raleway',sans-serif; font-size: 12px; font-weight: 700; line-height: 72px; margin: 0 0 24px; text-align: center; text-transform: uppercase; 
+	position: absolute;
+	top:110%;
+	left:30%;
+	text-align: center;
+	
+}

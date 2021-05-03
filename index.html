@@ -1,0 +1,51 @@
+<!DOCTYPE html><html lang="en"><head>
+    <script src="p5.js"></script>
+	<script>
+	window.addEventListener('keydown', function(e) {
+  if(e.keyCode == 32 || 39 || 37 || 38 || 40 && e.target == document.body) { //Stops scroll behaviour via key input for keys used 
+    e.preventDefault();
+  }
+});
+	
+	</script>
+	<title> Barnold's drawing pad ✏️ </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+  
+  <h1> Barnold's drawing pad ✏️  </h1>
+    <script src="sketch.js"></script>
+    <script src="Pen.js"></script>
+  
+  <div class="inf">
+  
+  
+  <p style="padding-top:10px; font-size:25px">-------------------------HOW TO USE:-------------------------</p>
+  
+  <p style="padding-top:10px; font-size:25px">-------------------------Colour controls-------------------------</p>
+  <p>R: Increases red in the RGB scale for pen colour</p>
+  <p>G: Increases green in the RGB scale for pen colour</p>
+  <p>B: Increases blue in the RGB scale for pen colour</p>
+  <p>E: Decreases red in the RGB scale for pen colour</p>
+  <p>F: Decreases green in the RGB scale for pen colour</p>
+  <p>V: Decreases blue in the RGB scale for pen colour</p>
+  <p>Space: Overrides the colour to a preselected colour</p>
+  
+  <p style="padding-top:10px; font-size:25px">-------------------------Pen and pad controls-------------------------</p>
+  <p>🡺: Increases pen size</p>
+  <p>🡸: Decreases pen size</p>
+  <p>🡹: Increases how much a colour can increase by for the RGB scale</p>
+  <p>🡻: Decreases how much a colour can increase by for the RGB scale</p>
+  <p>C: Clears the page</p>
+  <p>N: Removes the black outline from shapes</p>
+  <p>M: Add the black outline to shapes</p>
+  <p>S: changes the pen shape</p>
+  
+  </div>
+
+  
+
+
+</body></html>

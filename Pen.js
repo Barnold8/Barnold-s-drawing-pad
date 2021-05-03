@@ -1,3 +1,6 @@
+//NOTE! I only just noticed I wrote logic for one shape and not the other. However I am not going to update this because it seems to have what I want to work on both shapes. 
+//If anybody is to take this code and expand upon the shapes, your colours may not work, this could end up being a long term bug.
+
 class pen{
   
   
